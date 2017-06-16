@@ -257,7 +257,7 @@
 				TargetAttributes = {
 					471E0C1F1EF35F6300EB3AC7 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = WTB2BKP7UZ;
+						DevelopmentTeam = K2K9REBKPR;
 						ProvisioningStyle = Automatic;
 					};
 					471E0C381EF35F6400EB3AC7 = {
@@ -489,7 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
 				INFOPLIST_FILE = JQStickersView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQStickersView;
@@ -501,7 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
 				INFOPLIST_FILE = JQStickersView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQStickersView;
@@ -578,6 +578,7 @@
 				471E0C4F1EF35F6400EB3AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471E0C501EF35F6400EB3AC7 /* Build configuration list for PBXNativeTarget "JQStickersViewTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +587,7 @@
 				471E0C521EF35F6400EB3AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471E0C531EF35F6400EB3AC7 /* Build configuration list for PBXNativeTarget "JQStickersViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +596,7 @@
 				471E0C551EF35F6400EB3AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
