@@ -24,7 +24,7 @@
     
     NSMutableArray *imgArray = [NSMutableArray arrayWithArray:@[@"testImage_1",@"testImage_2",@"testImage_3",@"testImage_4",@"testImage_5",@"testImage_6",@"testImage_7",@"testImage_8",]];
     
-    JQStickersView *jqStickersView = [[JQStickersView alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 200) andImgArray:imgArray];
+    JQStickersView *jqStickersView = [[JQStickersView alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 200)  andBallDiameter:0 andImgArray:imgArray];
     jqStickersView.backgroundColor = [UIColor cyanColor];
     
     

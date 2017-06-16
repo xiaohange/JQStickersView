@@ -14,10 +14,12 @@
  Initialization JQStickersView
 
  @param frame frame description
+ @param ballDiameter ballDiameter description
  @param imgArray imgArray description
  @return return value description
  */
-- (instancetype)initWithFrame:(CGRect)frame andImgArray:(NSMutableArray *)imgArray;
+- (instancetype)initWithFrame:(CGRect)frame andBallDiameter:(CGFloat)ballDiameter andImgArray:(NSMutableArray *)imgArray;
+
 
 // Stop DeviceMotionUpdate
 - (void)stopDeviceMotionUpdate;

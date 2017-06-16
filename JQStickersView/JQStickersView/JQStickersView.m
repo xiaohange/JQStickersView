@@ -22,17 +22,19 @@
 @end
 @implementation JQStickersView
 
-- (instancetype)initWithFrame:(CGRect)frame andImgArray:(NSMutableArray *)imgArray
+- (instancetype)initWithFrame:(CGRect)frame andBallDiameter:(CGFloat)ballDiameter andImgArray:(NSMutableArray *)imgArray
 {
     if (self == [super initWithFrame:frame]) {
-      
-        [self initBallsViewAndImgArray:imgArray];
+        if (!ballDiameter) {
+            ballDiameter = 40;
+        }
+        [self initBallsViewAndImgArray:imgArray andBallDiameter:ballDiameter];
         [self initGyroManager];
     }
     return self;
 }
 
-- (void)initBallsViewAndImgArray:(NSMutableArray *)imgArr
+- (void)initBallsViewAndImgArray:(NSMutableArray *)imgArr andBallDiameter:(CGFloat)ballDiameter
 {
     self.ballsArray  = [NSMutableArray array];
     
@@ -43,12 +45,11 @@
         // ballColor
         ballImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@", imgArr[i]]];
         // ball size
-        CGFloat ballWidth = 40;
-        ballImageView.layer.cornerRadius = ballWidth / 2;
+        ballImageView.layer.cornerRadius = ballDiameter / 2;
         ballImageView.layer.masksToBounds = YES;
         
         // ball's location
-        CGRect frameRect = CGRectMake(arc4random()%((int)(self.bounds.size.width - ballWidth)), 0, ballWidth, ballWidth);
+        CGRect frameRect = CGRectMake(arc4random()%((int)(self.bounds.size.width - ballDiameter)), 0, ballDiameter, ballDiameter);
         ballImageView.frame = frameRect;
         
         // add superView
