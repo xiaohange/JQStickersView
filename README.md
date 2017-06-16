@@ -3,6 +3,8 @@
 ===
 JQStickersView: 仿摩拜单车我的贴纸,摩拜单车贴纸弹跳效果, 自定义摩拜单车贴纸效果, iOS开发者交流群: 446310206
 
+![](https://github.com/xiaohange/JQStickersView/blob/master/v1.gif?raw=true)
+
 ## Installation
 
  Drag all source files under floder `JQStickersView` to your project.
